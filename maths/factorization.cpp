@@ -17,11 +17,10 @@ vll p;
 
 void sieveFactoring(ll upperbound) {
 	factSize = upperbound + 1;
-	p = vll(factSize);
-	for (ll i = 2; i < factSize; i += 2) p[i] = 2;
+	p = vll(factSize, -1);
+	for (ll i = 4; i < factSize; i += 2) p[i] = 2;
 	for (ll i = 3; i * i < factSize; i += 2) {
-		if (p[i] == 0) {
-			p[i] = i;
+		if (p[i] == -1) {
 			for (ll j = i * i; j < factSize; j += 2 * i)
 				p[j] = i;
 		}
@@ -29,7 +28,7 @@ void sieveFactoring(ll upperbound) {
 }
 
 void fact(ll n, vll &f) {
-	while (p[n] != n) {
+	while (p[n] != -1) {
 		f.push_back(p[n]);
 		n /= p[n];
 	}
