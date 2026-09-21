@@ -1,1 +1,24 @@
+# === C y C++ (Ejecutables y archivos de compilación) ===
+*.exe
 *.out
+*.o
+*.obj
+
+# === Python (Archivos temporales y caché) ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# === Archivos de entrada/salida para pruebas locales ===
+# Útil si usas archivos de texto para probar tus códigos (ej. input.txt, output.txt)
+*.in
+*.out
+# Si prefieres conservar tus casos de prueba, borra las dos líneas anteriores
+
+# === Editores de código y Sistemas Operativos ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
