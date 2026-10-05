@@ -1,25 +1,27 @@
-# Programación Competitiva 🚀
+# Competitive Programming 🚀
 
-Mi colección personal de problemas resueltos de programación competitiva. Aquí guardo las soluciones optimizadas a problemas de diversas plataformas, organizadas por lenguaje.
+My personal collection of solved competitive programming problems. Here, I store optimized solutions to problems from various platforms.
 
-## 🛠️ Lenguajes Utilizados
-* **C++** (Principal para optimización y STL)
-* **Python** (Prototipado rápido y manejo de grandes números)
+## 🛠️ Programming languages
+* **C++** (Main for optimization and STL)
+* **Python** (Rapid prototyping and handling of large numbers)
 
-## 📂 Estructura del Repositorio
+## 📂 Repository Structure
 ```text
-├── C++/              # Soluciones en C++ (.cpp)
-├── Python/           # Soluciones en Python (.py)
+├── AtCoder/
+├── Codeforces/
+├── CSES/
+├── HackerRank/
+├── LeetCode/
 └── README.md
 ```
 
-## 🌐 Plataformas
-* Codeforces
-* LeetCode
-* Codechef
-* AtCoder
-* HackerRank
-* Beecrowd / URI
+## 🌐 Platforms
+* [AtCoder](https://atcoder.jp/) and [AtCoder Problems](https://kenkoooo.com/atcoder/#/table/)
+* [Codeforces](https://codeforces.com/) ans [Codeforces Problemset](https://codeforces.com/problemset)
+* [CSES](https://cses.fi/) and [CSES Problemset](https://cses.fi/problemset/list/)
+* [HackerRank](https://www.hackerrank.com/) and [Algorithm Problems](https://www.hackerrank.com/domains/algorithms), [Data Structures Problems](https://www.hackerrank.com/domains/data-structures)
+* [LeetCode](https://leetcode.com/) and [LeetCode Problemset](https://leetcode.com/problemset/)
 
 ---
-*¡Mentalidad de resolución de problemas activada!* 💡
+*¡Optimized problem solving mindset for competitive programming!* 💡
