@@ -1,4 +1,5 @@
 # Competitive Programming 🚀
+
 My personal collection of solved competitive programming problems. Here, I store optimized solutions to problems from various platforms.
 
 ## 🛠️ Programming languages
@@ -23,14 +24,14 @@ My personal collection of solved competitive programming problems. Here, I store
 * [HackerRank](https://www.hackerrank.com/) and [Algorithm Problems](https://www.hackerrank.com/domains/algorithms), [Data Structures Problems](https://www.hackerrank.com/domains/data-structures)
 * [LeetCode](https://leetcode.com/) and [LeetCode Problemset](https://leetcode.com/problemset/)
 
-## Resources
+## 📌 Resources
 * [CLIST](https://clist.by/problems/)
 
 ---
 *¡Optimized problem solving mindset for competitive programming!* 💡
 ---
 
-## Summary of Problems Solved
+## 📝 Summary of Problems Solved
 
 <!-- P | <1000 | <1400 | <1800 | >1800 | T | -->
 | Platform | Very Easy | Easy | Medium | Hard | Total |
@@ -41,7 +42,7 @@ My personal collection of solved competitive programming problems. Here, I store
 | **HackerRank** | 0 | 0 | 0 | 0 | 0 |
 | **LeetCode** | 0 | 0 | 0 | 0 | 0 |
 
-## Problems Solved
+## ✅ Problems Solved
 
 | Platform | Problem | Tags | Link |
 |---|---|---|---|
