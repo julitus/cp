@@ -4,6 +4,8 @@ compiled and typed
 
 ### Writing Conventions
 
+|   |   |
+|---|---|
 | variables | `my_iterator, my_pointer` |
 | functions and methods | `MySolved(), CalculatePath()` |
 | classes and structures | `SegmentTree, TreeNode` |
