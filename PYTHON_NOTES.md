@@ -4,7 +4,7 @@ interpreted and dynamically typed
 
 ### Writing Conventions
 
-|   |   |
+| Element | Example |
 |---|---|
 | variables and functions | `my_iterator, my_solved()` |
 | classes | `SegmentTree, TreeNode` |

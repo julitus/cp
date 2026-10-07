@@ -4,7 +4,7 @@ compiled and typed
 
 ### Writing Conventions
 
-|   |   |
+| Element | Example |
 |---|---|
 | variables | `my_iterator, my_pointer` |
 | functions and methods | `MySolved(), CalculatePath()` |
