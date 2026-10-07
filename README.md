@@ -35,7 +35,7 @@ My personal collection of solved competitive programming problems. Here, I store
 
 <!-- P | <1000 | <1400 | <1800 | >1800 | T | -->
 | Platform | Very Easy | Easy | Medium | Hard | Total |
-| :--- | :---: | :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: | :---: |
 | **AtCoder** | 0 | 0 | 0 | 0 | 0 |
 | **Codeforces** | 0 | 0 | 0 | 0 | 0 |
 | **CSES** | 0 | 0 | 0 | 0 | 0 |
