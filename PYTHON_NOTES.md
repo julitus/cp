@@ -2,11 +2,12 @@
 
 interpreted and dynamically typed
 
-### Writing Conventions
+### 🔤 Writing Conventions
 
 | Element | Example |
 |---|---|
-| variables and functions | `my_iterator, my_solved()` |
+| variables | `my_iterator, my_pointer` |
+| functions | `my_solved(), calculate_path()` |
 | classes | `SegmentTree, TreeNode` |
 | constants | `PI, INF_INT` |
 
