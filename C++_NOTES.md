@@ -20,17 +20,36 @@ block comment
 */
 
 // Data Types (most used): 
-int damagePoints = -10, age{25};            // Integer:     (4 Bytes) -2.147.483.648 to 2.147.483.647
-long long distanceToSun = 149600000000LL;   // Integer:     (8 Bytes) -9.223.372.036.854.775.808 to 9.223.372.036.854.775.807
-float shortPi = 3.1416f;                    // Decimal:     (4 Bytes) 3.4E +/- 38 (7 digits)
-double pi = 3.1415926535;                   // Decimal:     (8 Bytes) 1.7E +/- 308 (15 digits)
-bool isValid = true;                        // Boolean:     (1 Bytes) false or true, 0 or 1
-char number = '5', letter{'a'};             // Character:   (1 Bytes) -128 to 127
-string firstName = "Frank";                 // Text string: container class
+int damagePoints = -10, age{25};            // Integer:         (4 Bytes) -2.147.483.648 to 2.147.483.647
+long long distanceToSun = 149600000000LL;   // Integer:         (8 Bytes) -9.223.372.036.854.775.808 to 9.223.372.036.854.775.807
+float shortPi = 3.1416f;                    // Floating Point:  (4 Bytes) 3.4E +/- 38 (7 digits)
+double pi = 3.1415926535;                   // Floating Point:  (8 Bytes) 1.7E +/- 308 (15 digits)
+bool isValid = true;                        // Boolean:         (1 Bytes) false or true, 0 or 1
+char number = '5', letter{'a'};             // Character:       (1 Bytes) -128 to 127
+string firstName = "Frank";                 // Text string:     container class
 
 // Constants
 const double PI = 3.141592653589793;
 const long long MODULE = 1000000007;
+
+// Arithmetic Operators
+int a = 3, b = 8;
+float c = 2f;
+int sum = a + b;        // sum = 11         '+' operator, for integers and floating point numbers
+int sub = a - b;        // sub = -5         '-' operator, for integers and floating point numbers
+int mul = a * b;        // mul = 24         '*' operator, for integers and floating point numbers
+int divA = b / a;       // divA = 2         '/' operator, for integers, the result is truncated
+float divB = a / c;     // divB = 1.5f      '/' operator, for floating point numbers
+int mod = b % a;        // mod = 2          '%' operator, for intergers only
+
+// Compound Assignment
+a += 5;                 // a = a + 5        +=, -=, *=, /=, %=
+
+// Increment and Decrement
+++a, a++;               // Pre-increment, post-increment
+--a, a--;               // Pre-decrement, post-decrement
+b = ++a;                // If a = 5, then after execution b = 6 and a = 6
+b = a++;                // If a = 5, then after execution b = 5 and a = 6
 ```
 
 ### Example Code
