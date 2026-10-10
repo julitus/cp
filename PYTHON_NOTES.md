@@ -22,7 +22,7 @@ block comment
 # Data Types (most used): 
 damage_points, distance_to_sun = -10, 149600000000      # Integer       (int)
 short_pi, pi = 3.1416, 3.1415926535                     # Decimal       (float)
-is_valid = true                                         # Boolean       (bool) 
+is_valid = True                                         # Boolean       (bool) 
 first_name = "Frank"                                    # Text string   (str)
 
 # Constants
