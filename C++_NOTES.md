@@ -20,8 +20,8 @@ block comment
 */
 
 // Data Types (most used): 
-int damagePoints = -10, age{25};            // Integer:         (4 Bytes) -2.147.483.648 to 2.147.483.647
-long long distanceToSun = 149600000000LL;   // Integer:         (8 Bytes) -9.223.372.036.854.775.808 to 9.223.372.036.854.775.807
+int damagePoints = -10, age{25};            // Integer:         (4 Bytes) -2^31 to 2^31 - 1
+long long distanceToSun = 149600000000LL;   // Integer:         (8 Bytes) -2^63 to 2^63 - 1
 float shortPi = 3.1416f;                    // Floating Point:  (4 Bytes) 3.4E +/- 38 (7 digits)
 double pi = 3.1415926535;                   // Floating Point:  (8 Bytes) 1.7E +/- 308 (15 digits)
 bool isValid = true;                        // Boolean:         (1 Bytes) false or true, 0 or 1
