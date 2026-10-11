@@ -41,7 +41,7 @@ mod = b % a             # mod = 2           '%' operator, for intergers only
 pwr = b ** a            # pwr = 512         '**' operator, for simple powers
 
 # Compound Assignment
-a += 5;                 # a = a + 5        +=, -=, *=, /=, //=, %=, **=
+a += 5                  # a = a + 5        +=, -=, *=, /=, //=, %=, **=
 ```
 
 ### Example Code
