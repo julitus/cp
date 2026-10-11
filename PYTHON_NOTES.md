@@ -28,6 +28,20 @@ first_name = "Frank"                                    # Text string       (str
 # Constants
 PI = 3.141592653589793
 MODULE = 1000000007
+
+# Arithmetic Operators
+a, b = 3, 8
+sum = a + b             # sum = 11          '+' operator, for integers and floating point numbers
+sub = a - b             # sub = -5          '-' operator, for integers and floating point numbers
+mul = a * b             # mul = 24          '*' operator, for integers and floating point numbers
+divA = b / a            # divA = 2.67       '/' operator, the result is floating point numbers
+divB = b // a           # divB = 2          '//' operator, rounds to the floor integer
+divC = -b // a          # divC = -3             -2.67, the floor is -3
+mod = b % a             # mod = 2           '%' operator, for intergers only
+pwr = b ** a            # pwr = 512         '**' operator, for simple powers
+
+# Compound Assignment
+a += 5;                 # a = a + 5        +=, -=, *=, /=, //=, %=, **=
 ```
 
 ### Example Code

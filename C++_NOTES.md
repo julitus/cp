@@ -34,7 +34,7 @@ const long long MODULE = 1000000007;
 
 // Arithmetic Operators
 int a = 3, b = 8;
-float c = 2f;
+float c = 2.0f;
 int sum = a + b;        // sum = 11         '+' operator, for integers and floating point numbers
 int sub = a - b;        // sub = -5         '-' operator, for integers and floating point numbers
 int mul = a * b;        // mul = 24         '*' operator, for integers and floating point numbers
