@@ -42,6 +42,12 @@ pwr = b ** a            # pwr = 512         '**' operator, for simple powers
 
 # Compound Assignment
 a += 5                  # a = a + 5        +=, -=, *=, /=, //=, %=, **=
+
+# Logical Operators
+a, b = True, False
+resultAnd = a and b             # True only if both (a and b) are True
+resultOr = a or b               # False only if both (a and b) are False
+resultNot = not a               # True if a is False, False if a is True
 ```
 
 ### Example Code

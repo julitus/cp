@@ -50,6 +50,12 @@ a += 5;                 // a = a + 5        +=, -=, *=, /=, %=
 --a, a--;               // Pre-decrement, post-decrement
 b = ++a;                // If a = 5, then after execution b = 6 and a = 6
 b = a++;                // If a = 5, then after execution b = 5 and a = 6
+
+// Logical Operators
+bool a = true, b = false;
+bool resultAnd = a && b;    // resultAnd = a and b;     true only if both (a and b) are true
+bool resultOr = a || b;     // resultOr = a or b;       false only if both (a and b) are false
+bool resultNot = !a;        // resultNot = not a;       true if a is false, false if a is true
 ```
 
 ### Example Code
