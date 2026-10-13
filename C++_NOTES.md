@@ -56,6 +56,25 @@ bool a = true, b = false;
 bool resultAnd = a && b;    // resultAnd = a and b;     true only if both (a and b) are true
 bool resultOr = a || b;     // resultOr = a or b;       false only if both (a and b) are false
 bool resultNot = !a;        // resultNot = not a;       true if a is false, false if a is true
+
+// Conditional Structures
+if (condition)              // if / else if / else
+{
+    //  It execute if condition is true. After execution, exit the entire if / else if / else structure
+}
+else if (condition2)
+{
+    // It execute if condition2 is true. After execution, exit the entire if / else if / else structure
+}
+else
+{
+    // It execute if no previous if / else if condition was true
+}
+
+int a{1}, b{3};
+int maximum = (a > b) ? a : b;      // Conditional Operator, maximum is a if the condition is true, otherwise b
+
+// Cyclic Structures
 ```
 
 ### Example Code

@@ -48,6 +48,17 @@ a, b = True, False
 resultAnd = a and b             # True only if both (a and b) are True
 resultOr = a or b               # False only if both (a and b) are False
 resultNot = not a               # True if a is False, False if a is True
+
+# Conditional Structures
+if condition:                   # if / elif / else
+    # It execute if condition is true. After execution, exit the entire if / elif / else structure
+elif condition2:
+    # It execute if condition2 is true. After execution, exit the entire if / elif / else structure
+else:
+    # It execute if no previous if / elif condition was true
+
+a, b = 1, 3
+maximum = a if a > b else b     # Conditional Operator, maximum is a if the condition is true, otherwise b
 ```
 
 ### Example Code
