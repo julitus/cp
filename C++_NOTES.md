@@ -75,6 +75,17 @@ int a{1}, b{3};
 int maximum = (a > b) ? a : b;      // Conditional Operator, maximum is a if the condition is true, otherwise b
 
 // Cyclic Structures
+for (int i = 0; i < 5; i++)         // for (initialization; condition; update), print numbers from 0 to 4
+{
+    cout << i << " ";
+}
+
+int i = 0;
+while (i < 5)                       // while (condition), print numbers from 0 to 4
+{
+    cout << i << " ";
+    i++;
+}
 ```
 
 ### Example Code

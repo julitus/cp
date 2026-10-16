@@ -59,6 +59,15 @@ else:
 
 a, b = 1, 3
 maximum = a if a > b else b     # Conditional Operator, maximum is a if the condition is true, otherwise b
+
+# Cyclic Structures
+for i in range(5):              # for variable in iterable:, print numbers from 0 to 4
+    print(f"{i}")
+
+i = 0
+while i < 5:                    # while condition:, print numbers from 0 to 4
+    print(f"{i}")
+    i += 1
 ```
 
 ### Example Code
